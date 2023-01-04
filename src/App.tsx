@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       ABC
-      <ComponentA name="cc" />
+      {/* <ComponentA name="cc" /> */}
       <ComponentB />
       {/* {mangA.map((item, i) => {
         return (

@@ -4,10 +4,10 @@ import "./ComponentA.css";
 
 import { counterAction } from "../store/couter";
 
-function ComponentA({ name }) {
+function ComponentA({}) {
   const [fruit, setFruit] = useState("chuối");
 
-  const counter = useSelector((state) => state.counter.counter);
+  const counter = useSelector((state: any) => state.counter.counter);
 
   const dispatch = useDispatch();
 
